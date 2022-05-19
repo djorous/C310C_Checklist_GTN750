@@ -1,0 +1,959 @@
+[
+	{
+		"name": "Normal Procedures",
+		"checklists": [
+			{
+				"name": "Cockpit Preflight",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Control Lock",
+						"comment": "",
+						"response": "REMOVE"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Parking Brake",
+						"comment": "",
+						"response": "SET"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "All Switches",
+						"comment": "",
+						"response": "OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "All Circuit Breakers",
+						"comment": "",
+						"response": "IN"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Fire Extinguisher",
+						"comment": "",
+						"response": "CHECK"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Voltmeter Selector",
+						"comment": "",
+						"response": "BAT"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Landing Gear Switch",
+						"comment": "",
+						"response": "DOWN"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Left Fuel Selector",
+						"comment": "",
+						"response": "LEFT MAIN"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Right Fuel Selector",
+						"comment": "",
+						"response": "RIGHT MAIN"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Trim Tab Controls (3)",
+						"comment": "",
+						"response": "TAKEOFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Battery Switch",
+						"comment": "",
+						"response": "ON"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Navigation and Anti-Collision Lights",
+						"comment": "",
+						"response": "CHECK"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Navigation and Anti-Collision Lights",
+						"comment": "",
+						"response": "OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Fuel Gauges",
+						"comment": "",
+						"response": "CHECK QTY & OP"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Wing Flaps",
+						"comment": "",
+						"response": "DOWN 15°"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Pitot Heat",
+						"comment": "",
+						"response": "ON 20 SECS THEN OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Battery Switch",
+						"comment": "",
+						"response": "OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "External Inspection",
+						"comment": "",
+						"response": "COMPLETE"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Pitot Covers",
+						"comment": "",
+						"response": "REMOVE"
+					}
+				]
+			},
+			{
+				"name": "Before Starting Engines",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Preflight Inspection",
+						"comment": "",
+						"response": "COMPLETE"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Cabin Door",
+						"comment": "",
+						"response": "LATCH AND SECURE"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Control Locks",
+						"comment": "",
+						"response": "REMOVE"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Seat and Seat Belts",
+						"comment": "",
+						"response": "ADJUST AND SECURE"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Brakes",
+						"comment": "",
+						"response": "SET"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Fuel Selectors",
+						"comment": "",
+						"response": "MAIN TANKS"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Landing Gear Switch",
+						"comment": "",
+						"response": "DOWN"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Mixtures",
+						"comment": "",
+						"response": "FULL RICH"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Propellers",
+						"comment": "",
+						"response": "FULL FORWARD"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Throttles",
+						"comment": "",
+						"response": "OPEN ONE INCH"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "All Switches",
+						"comment": "",
+						"response": "OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Circuit Breakers",
+						"comment": "",
+						"response": "IN"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Emergency Alternator Field Switch",
+						"comment": "",
+						"response": "OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Emergency Avionics Power Switch",
+						"comment": "",
+						"response": "OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Avionics Master Switch",
+						"comment": "",
+						"response": "OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Auxiliary Fuel Pump Switches",
+						"comment": "",
+						"response": "OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Battery and Alternators",
+						"comment": "",
+						"response": "ON"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Lighting Rheostats",
+						"comment": "",
+						"response": "AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Landing Gear Position Indicator Lights",
+						"comment": "",
+						"response": "CHECK GREEN LIGHTS ON"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "All Warning Lights",
+						"comment": "",
+						"response": "PRESS-TO-TEST"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Altimeter and Clock",
+						"comment": "",
+						"response": "SET"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Cowl Flaps",
+						"comment": "",
+						"response": "LOCK FULL OPEN"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Fuel Quantity",
+						"comment": "",
+						"response": "CHECK"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Cabin Air Controls",
+						"comment": "",
+						"response": "AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Alternate Air Controls",
+						"comment": "",
+						"response": "IN"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "External Lights",
+						"comment": "",
+						"response": "AS REQUIRED"
+					}
+				]
+			},
+			{
+				"name": "Starting Engines",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Propeller",
+						"comment": "",
+						"response": "CLEAR"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Magneto Switches",
+						"comment": "",
+						"response": "ON"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Left Primer Switch",
+						"comment": "",
+						"response": "SELECT"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Left Starter Button",
+						"comment": "",
+						"response": "PRESS AND HOLD"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Left Auxiliary Fuel Pump",
+						"comment": "",
+						"response": "LOW"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Left Throttle",
+						"comment": "",
+						"response": "1 INCH"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Left Oil Pressure",
+						"comment": "",
+						"response": "10 PSI MINIMUM IN 30 SECONDS"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Right Primer Switch",
+						"comment": "",
+						"response": "SELECT"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Right Starter Button",
+						"comment": "",
+						"response": "PRESS AND HOLD"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Right Auxiliary Fuel Pump",
+						"comment": "",
+						"response": "LOW"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Right Throttle",
+						"comment": "",
+						"response": "1 INCH"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Right Oil Pressure",
+						"comment": "",
+						"response": "10 PSI MINIMUM IN 30 SECONDS"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Alternators",
+						"comment": "",
+						"response": "CHECK"
+					}
+				]
+			},
+			{
+				"name": "Before Taxiing",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Passenger Briefing",
+						"comment": "",
+						"response": "COMPLETE"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Avionics Master Switch",
+						"comment": "",
+						"response": "ON"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Avionics",
+						"comment": "",
+						"response": "SET"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Lights",
+						"comment": "",
+						"response": "AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Cabin Temperature",
+						"comment": "",
+						"response": "AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Brakes",
+						"comment": "",
+						"response": "RELEASE"
+					}
+				]
+			},
+			{
+				"name": "Taxiing",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Throttles",
+						"comment": "",
+						"response": "AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Brakes",
+						"comment": "",
+						"response": "CHECK"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Flight Instruments",
+						"comment": "",
+						"response": "CHECK"
+					}
+				]
+			},
+			{
+				"name": "Before Takeoff",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Parking Brake",
+						"comment": "",
+						"response": "SET"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Fuel Quantity",
+						"comment": "",
+						"response": "CHECK"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Fuel Selectors",
+						"comment": "",
+						"response": "RECHECK ON MAIN TANKS"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Alternate Air Controls",
+						"comment": "",
+						"response": "IN"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Cowl Flaps",
+						"comment": "",
+						"response": "OPEN"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Elevator, Rudder, Aileron Trim",
+						"comment": "",
+						"response": "SET FOR TAKEOFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Wing Flaps",
+						"comment": "",
+						"response": "UP"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Avionics and Radios",
+						"comment": "",
+						"response": "SET"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Flight InstrumentsS",
+						"comment": "",
+						"response": "SET"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Auxiliary Fuel Pumps",
+						"comment": "",
+						"response": "LOW"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Flight Controls",
+						"comment": "",
+						"response": "FREE AND CORRECT"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Throttles",
+						"comment": "",
+						"response": "1700 RPM"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Alternators",
+						"comment": "",
+						"response": "CHECK"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Vacuum System",
+						"comment": "",
+						"response": "CHECK"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Magnetos",
+						"comment": "",
+						"response": "CHECK"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Propellers",
+						"comment": "",
+						"response": "CHECK FEATHERING TO 1200 RPM; RETURN TO FULL"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Mixtures",
+						"comment": "",
+						"response": "CHECK RICH"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Engine Instruments",
+						"comment": "",
+						"response": "CHECK IN GREEN ARC"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Throttles",
+						"comment": "",
+						"response": "1000 RPM"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Quadrant Friction Lock",
+						"comment": "",
+						"response": "ADJUST"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Exterior Lights",
+						"comment": "",
+						"response": "AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Ice Protection Equipment",
+						"comment": "",
+						"response": "AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "All Cabin Doors and Windows",
+						"comment": "",
+						"response": "CLOSED AND LATCHED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Parking Brake",
+						"comment": "",
+						"response": "RELEASE"
+					}
+				]
+			},
+			{
+				"name": "Normal Takeoff",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Power",
+						"comment": "",
+						"response": "FULL THROTTLE AND 2700 RPM"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Mixtures",
+						"comment": "",
+						"response": "LEAN FOR FIELD ELEVATION"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Engine Instruments",
+						"comment": "",
+						"response": "CHECK"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Air Minimum Control Speed",
+						"comment": "",
+						"response": "80 KIAS"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Elevator Control",
+						"comment": "",
+						"response": "RAISE NOSEWHEEL AT 83 KIAS"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Lift-Off",
+						"comment": "",
+						"response": "92 KIAS AT 5500 POUNDS"
+					}
+				]
+			},
+			{
+				"name": "After Takeoff",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Brakes",
+						"comment": "",
+						"response": "APPLY MOMENTARILY"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Landing Gear",
+						"comment": "",
+						"response": "RETRACT CHECK RED LIGHT OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Wing Flaps",
+						"comment": "",
+						"response": "UP IF MAXIMUM PERFORMANCE TAKEOFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Best Angle-of-Climb Speed",
+						"comment": "",
+						"response": "85 KIAS AFTER 50 FT OBSTACLES"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Best Rate-of-Climb Speed",
+						"comment": "",
+						"response": "107 KIAS AT 5500 POUNDS"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Auxiliary Fuel Pumps",
+						"comment": "",
+						"response": "AS REQUIRED"
+					}
+				]
+			},
+			{
+				"name": "Climb",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Power",
+						"comment": "",
+						"response": "2500 RPM and 245 inches Hg"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Airspeed",
+						"comment": "",
+						"response": "115 to 130 KIAS"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Mixtures",
+						"comment": "",
+						"response": "ADJUST TO CLIMB FUEL FLOW"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Cowl Flaps",
+						"comment": "",
+						"response": "OPEN OR AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Auxiliary Fuel Pumps",
+						"comment": "",
+						"response": "LOW ABOVE 12,000 FEET"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Propellers",
+						"comment": "",
+						"response": "SYNCHRONIZE MANUALLY"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Quadrant Friction Lock",
+						"comment": "",
+						"response": "TIGHTEN SECURELY"
+					}
+				]
+			},
+			{
+				"name": "Cruise",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Cruise Power",
+						"comment": "",
+						"response": "2100 to 2500 RPM and 150 to 245 inches Hg"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Crossfeeding",
+						"comment": "",
+						"response": "LOW"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Mixtures",
+						"comment": "",
+						"response": "LEAN FOR DESIRED CRUISE FUEL FLOW"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Cowl Flaps",
+						"comment": "",
+						"response": "OPEN OR AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Propellers",
+						"comment": "",
+						"response": "SYNCHRONIZE MANUALLY"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Quadrant Friction Lock",
+						"comment": "",
+						"response": "TIGHTEN SECURELY"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Fuel Selectors",
+						"comment": "",
+						"response": "MAIN TANKS FOR 90 MINUTES"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Trim Tabs",
+						"comment": "",
+						"response": "ADJUST"
+					}
+				]
+			},
+			{
+				"name": "Descent",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Fuel Selectors",
+						"comment": "",
+						"response": "MAIN TANKS"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Auxiliary Fuel Pumps",
+						"comment": "",
+						"response": "LOW"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Power",
+						"comment": "",
+						"response": "AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Cowl Flaps",
+						"comment": "",
+						"response": "AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Mixtures",
+						"comment": "",
+						"response": "ADJUST FOR SMOOTH OPERATION"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Altimeter",
+						"comment": "",
+						"response": "SET"
+					}
+				]
+			},
+			{
+				"name": "Before Landing",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Seat Belts",
+						"comment": "",
+						"response": "SECURE"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Alternate Air Controls",
+						"comment": "",
+						"response": "CHECK IN"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Wing Flaps",
+						"comment": "",
+						"response": "DOWN 15° BELOW 158 KIAS"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Landing Gear",
+						"comment": "",
+						"response": "DOWN BELOW 138 KIAS"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Landing Gear Indicators",
+						"comment": "",
+						"response": "CHECK DOWN LIGHTS ON, UNLOCKED LIGHT OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Mixtures",
+						"comment": "",
+						"response": "FULL RICH OR LEAN AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Propellers",
+						"comment": "",
+						"response": "FULL FORWARD"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Wing Flaps",
+						"comment": "",
+						"response": "DOWN 35° BELOW 138 KIAS"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Minimum Multi-Engine Approach Speed",
+						"comment": "",
+						"response": "93 KIAS AT 5400 POUNDS"
+					}
+				]
+			},
+			{
+				"name": "After Landing",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Auxiliary Fuel Pumps",
+						"comment": "",
+						"response": "LOW DURING LANDING ROLL"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Cowl Flaps",
+						"comment": "",
+						"response": "OPEN"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Wing Flaps",
+						"comment": "",
+						"response": "UP"
+					}
+				]
+			},
+			{
+				"name": "Shutdown",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Parking Brake",
+						"comment": "",
+						"response": "SET IF BRAKES ARE COOL"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Avionics Master Switch",
+						"comment": "",
+						"response": "OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "All Switches Except Battery, Alternator, and Magnetos",
+						"comment": "",
+						"response": "OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Auxiliary Fuel Pumps",
+						"comment": "",
+						"response": "OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Throttles",
+						"comment": "",
+						"response": "IDLE"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Mixtures",
+						"comment": "",
+						"response": "IDLE CUT-OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Battery and Alternators",
+						"comment": "",
+						"response": "OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Magneto Switches",
+						"comment": "",
+						"response": "OFF AFTER ENGINES STOP"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Control Locks",
+						"comment": "",
+						"response": "INSTALL"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Fuel Selectors",
+						"comment": "",
+						"response": "OFF"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Cabin Door",
+						"comment": "",
+						"response": "CLOSE"
+					}
+				]
+			}
+		]
+	}
+]
