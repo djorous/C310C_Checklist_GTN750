@@ -9,7 +9,7 @@
 						"type": "CHALLENGE",
 						"text": "Control Lock",
 						"comment": "",
-						"response": "REMOVE"
+						"response": "REMOVE AND STOW"
 					},
 					{
 						"type": "CHALLENGE",
@@ -33,7 +33,7 @@
 						"type": "CHALLENGE",
 						"text": "Fire Extinguisher",
 						"comment": "",
-						"response": "CHECK"
+						"response": "CHECK SECURE"
 					},
 					{
 						"type": "CHALLENGE",
@@ -63,7 +63,7 @@
 						"type": "CHALLENGE",
 						"text": "Trim Tab Controls (3)",
 						"comment": "",
-						"response": "TAKEOFF"
+						"response": "SET FOR TAKEOFF"
 					},
 					{
 						"type": "CHALLENGE",
@@ -75,7 +75,7 @@
 						"type": "CHALLENGE",
 						"text": "Navigation and Anti-Collision Lights",
 						"comment": "",
-						"response": "CHECK"
+						"response": "CHECK OPERATION"
 					},
 					{
 						"type": "CHALLENGE",
@@ -87,7 +87,7 @@
 						"type": "CHALLENGE",
 						"text": "Fuel Gauges",
 						"comment": "",
-						"response": "CHECK QTY & OP"
+						"response": "CHECK QUANTITY AND OPERATION"
 					},
 					{
 						"type": "CHALLENGE",
@@ -124,12 +124,6 @@
 			{
 				"name": "Before Starting Engines",
 				"items": [
-					{
-						"type": "CHALLENGE",
-						"text": "Preflight Inspection",
-						"comment": "",
-						"response": "COMPLETE"
-					},
 					{
 						"type": "CHALLENGE",
 						"text": "Cabin Door",
@@ -299,13 +293,13 @@
 					},
 					{
 						"type": "CHALLENGE",
-						"text": "Left Primer Switch",
+						"text": "Left Engine Primer Switch",
 						"comment": "",
 						"response": "SELECT"
 					},
 					{
 						"type": "CHALLENGE",
-						"text": "Left Starter Button",
+						"text": "Left Engine Starter Button",
 						"comment": "",
 						"response": "PRESS AND HOLD"
 					},
@@ -319,23 +313,23 @@
 						"type": "CHALLENGE",
 						"text": "Left Throttle",
 						"comment": "",
-						"response": "1 INCH"
+						"response": "800 TO 1000 RPM"
 					},
 					{
 						"type": "CHALLENGE",
-						"text": "Left Oil Pressure",
+						"text": "Left Oil Pressure Gauge",
 						"comment": "",
 						"response": "10 PSI MINIMUM IN 30 SECONDS"
 					},
 					{
 						"type": "CHALLENGE",
-						"text": "Right Primer Switch",
+						"text": "Right Engine Primer Switch",
 						"comment": "",
 						"response": "SELECT"
 					},
 					{
 						"type": "CHALLENGE",
-						"text": "Right Starter Button",
+						"text": "Right Engine Starter Button",
 						"comment": "",
 						"response": "PRESS AND HOLD"
 					},
@@ -349,11 +343,11 @@
 						"type": "CHALLENGE",
 						"text": "Right Throttle",
 						"comment": "",
-						"response": "1 INCH"
+						"response": "800 TO 1000 RPM"
 					},
 					{
 						"type": "CHALLENGE",
-						"text": "Right Oil Pressure",
+						"text": "Right Oil Pressure Gauge",
 						"comment": "",
 						"response": "10 PSI MINIMUM IN 30 SECONDS"
 					},
@@ -395,7 +389,13 @@
 					{
 						"type": "CHALLENGE",
 						"text": "Cabin Temperature",
-						"comment": "",
+						"comment": "Refer to the Cabin Temperature checklist under Cabin Comfort for operational guidance if required",
+						"response": "AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Cabin Ventilation",
+						"comment": "Refer to the Cabin Ventilation checklist under Cabin Comfort for operational guidance if required",
 						"response": "AS REQUIRED"
 					},
 					{
@@ -560,6 +560,12 @@
 					},
 					{
 						"type": "CHALLENGE",
+						"text": "Pitot Heat",
+						"comment": "",
+						"response": "AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
 						"text": "Ice Protection Equipment",
 						"comment": "",
 						"response": "AS REQUIRED"
@@ -579,8 +585,14 @@
 				]
 			},
 			{
-				"name": "Normal Takeoff",
+				"name": "Normal Performance Takeoff",
 				"items": [
+					{
+						"type": "TEXT",
+						"text": "Refer to the Maximum Performance Takeoff checklist under Alternate Procedures for operational guidance if required",
+						"comment": "",
+						"response": ""
+					},
 					{
 						"type": "CHALLENGE",
 						"text": "Power",
@@ -594,28 +606,22 @@
 						"response": "LEAN FOR FIELD ELEVATION"
 					},
 					{
-						"type": "CHALLENGE",
-						"text": "Engine Instruments",
+						"type": "TEXT",
+						"text": "Elevator Control: RAISE NOSEWHEEL AT 83 KIAS",
 						"comment": "",
-						"response": "CHECK"
+						"response": ""
 					},
 					{
-						"type": "CHALLENGE",
-						"text": "Air Minimum Control Speed",
+						"type": "WARNING",
+						"text": "Air Minimum Control Speed: 80 KIAS",
 						"comment": "",
-						"response": "80 KIAS"
+						"response": ""
 					},
 					{
-						"type": "CHALLENGE",
-						"text": "Elevator Control",
+						"type": "TEXT",
+						"text": "Lift-Off: 92 KIAS AT 5500 POUNDS",
 						"comment": "",
-						"response": "RAISE NOSEWHEEL AT 83 KIAS"
-					},
-					{
-						"type": "CHALLENGE",
-						"text": "Lift-Off",
-						"comment": "",
-						"response": "92 KIAS AT 5500 POUNDS"
+						"response": ""
 					}
 				]
 			},
@@ -637,20 +643,20 @@
 					{
 						"type": "CHALLENGE",
 						"text": "Wing Flaps",
-						"comment": "",
+						"comment": "Refer to the Maximum Performance Takeoff checklist under Alternate Procedures for operational guidance if required",
 						"response": "UP IF MAXIMUM PERFORMANCE TAKEOFF"
 					},
 					{
-						"type": "CHALLENGE",
-						"text": "Best Angle-of-Climb Speed",
+						"type": "TEXT",
+						"text": "Best Angle-of-Climb Speed: 85 KIAS AFTER 50 FT OBSTACLES",
 						"comment": "",
-						"response": "85 KIAS AFTER 50 FT OBSTACLES"
+						"response": ""
 					},
 					{
-						"type": "CHALLENGE",
-						"text": "Best Rate-of-Climb Speed",
+						"type": "TEXT",
+						"text": "Best Rate-of-Climb Speed: 107 KIAS AT 5500 POUNDS",
 						"comment": "",
-						"response": "107 KIAS AT 5500 POUNDS"
+						"response": ""
 					},
 					{
 						"type": "CHALLENGE",
@@ -661,25 +667,31 @@
 				]
 			},
 			{
-				"name": "Climb",
+				"name": "Normal Performance Climb",
 				"items": [
+					{
+						"type": "TEXT",
+						"text": "Refer to the Maximum Performance Climb checklist under Alternate Procedures for operational guidance if required",
+						"comment": "",
+						"response": ""
+					},
 					{
 						"type": "CHALLENGE",
 						"text": "Power",
 						"comment": "",
-						"response": "2500 RPM and 245 inches Hg"
+						"response": "2500 RPM AND 24.5 IN HG"
 					},
 					{
-						"type": "CHALLENGE",
-						"text": "Airspeed",
+						"type": "TEXT",
+						"text": "Airspeed: 115 TO 130 KIAS",
 						"comment": "",
-						"response": "115 to 130 KIAS"
+						"response": ""
 					},
 					{
 						"type": "CHALLENGE",
 						"text": "Mixtures",
 						"comment": "",
-						"response": "ADJUST TO CLIMB FUEL FLOW"
+						"response": "ADJUST FOR ALTITUDE AND POWER"
 					},
 					{
 						"type": "CHALLENGE",
@@ -698,12 +710,6 @@
 						"text": "Propellers",
 						"comment": "",
 						"response": "SYNCHRONIZE MANUALLY"
-					},
-					{
-						"type": "CHALLENGE",
-						"text": "Quadrant Friction Lock",
-						"comment": "",
-						"response": "TIGHTEN SECURELY"
 					}
 				]
 			},
@@ -711,16 +717,22 @@
 				"name": "Cruise",
 				"items": [
 					{
-						"type": "CHALLENGE",
-						"text": "Cruise Power",
+						"type": "TEXT",
+						"text": "Refer to the Tanks Operation checklist under Tanks and Fuel Pumps for operational guidance if required",
 						"comment": "",
-						"response": "2100 to 2500 RPM and 150 to 245 inches Hg"
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Refer to the Auxiliary Fuel Pumps Operation checklist under Tanks and Fuel Pumps for operational guidance if required",
+						"comment": "",
+						"response": ""
 					},
 					{
 						"type": "CHALLENGE",
-						"text": "Crossfeeding",
+						"text": "Cruise Power",
 						"comment": "",
-						"response": "LOW"
+						"response": "2100 TO 2500 RPM AND 15.0 TO 24.5 IN HG"
 					},
 					{
 						"type": "CHALLENGE",
@@ -832,7 +844,7 @@
 						"type": "CHALLENGE",
 						"text": "Landing Gear Indicators",
 						"comment": "",
-						"response": "CHECK DOWN LIGHTS ON, UNLOCKED LIGHT OFF"
+						"response": "CHECK DOWN LIGHTS ON AND UNLOCKED LIGHT OFF"
 					},
 					{
 						"type": "CHALLENGE",
@@ -853,10 +865,10 @@
 						"response": "DOWN 35° BELOW 138 KIAS"
 					},
 					{
-						"type": "CHALLENGE",
-						"text": "Minimum Multi-Engine Approach Speed",
+						"type": "WARNING",
+						"text": "Minimum Multi-Engine Approach Speed: 93 KIAS AT 5400 POUNDS",
 						"comment": "",
-						"response": "93 KIAS AT 5400 POUNDS"
+						"response": ""
 					}
 				]
 			},
@@ -951,6 +963,355 @@
 						"text": "Cabin Door",
 						"comment": "",
 						"response": "CLOSE"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Alternate Procedures",
+		"checklists": [
+			{
+				"name": "Maximum Performance Takeof",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Wing Flaps",
+						"comment": "",
+						"response": "DOWN 15°"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Brakes",
+						"comment": "",
+						"response": "SET"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Power",
+						"comment": "",
+						"response": "FULL THROTTLE AND 2700 RPM"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Mixtures",
+						"comment": "",
+						"response": "LEAN FOR FIELD ELEVATION"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Brakes",
+						"comment": "",
+						"response": "RELEASE"
+					},
+					{
+						"type": "TEXT",
+						"text": "Elevator Control: RAISE NOSEWHEEL AT 70 KIAS",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "WARNING",
+						"text": "Air Minimum Control Speed: 80 KIAS",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Lift-Off: 82 KIAS AT 5500 POUNDS",
+						"comment": "",
+						"response": ""
+					}
+				]
+			},
+			{
+				"name": "Maximum Performance Climb",
+				"items": [
+					{
+						"type": "CHALLENGE",
+						"text": "Power",
+						"comment": "",
+						"response": "FULL THROTTLE AND 2700 RPM"
+					},
+					{
+						"type": "TEXT",
+						"text": "Airspeed: 107 KIAS AT SEA LEVEL AND 99 KIAS AT 10,000 FEET",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Mixtures",
+						"comment": "",
+						"response": "ADJUST FOR ALTITUDE AND POWER"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Cowl Flaps",
+						"comment": "",
+						"response": "OPEN AS REQUIRED"
+					},
+					{
+						"type": "CHALLENGE",
+						"text": "Auxiliary Fuel Pumps",
+						"comment": "",
+						"response": "LOW ABOVE 12,000 FEET"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Tanks and Fuel Pumps",
+		"checklists": [
+			{
+				"name": "Tanks Operation",
+				"items": [
+					{
+						"type": "WARNING",
+						"text": "DO NOT switch fuel tanks with engines running without the auxiliary fuel pump set to LOW before changing the selector. ",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "To Activate Fuel Cutoff Select: SOLID RED OUTLINED OPTION - Caption: ENGINE OFF",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "To Activate Main Tank Select: SOLID BLUE OUTLINED OPTION - Caption: MAIN TANK 50 GAL",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "To Activate Auxiliary Tank Select: BLUE AND YELLOW STRIPED OPTION - Caption: AUX TANK 31.5 GAL",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "To Activate Crossfeed Select: SOLID YELLOW OUTLINED OPTION - Caption: MAIN TANK 50 GAL",
+						"comment": "",
+						"response": ""
+					}
+				]
+			},
+			{
+				"name": "Auxiliary Fuel Pumps Operation",
+				"items": [
+					{
+						"type": "WARNING",
+						"text": "DO NOT SET the Auxiliary Fuel Pumps to HIGH, this can flood the engines. HIGH is only utilized in case of mechanical pumps malfunction",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Starting Engines: LOW",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Taxiing: LOW",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Takeoff: LOW",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Cruise: LOW ABOVE 12,000 FEET",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Descent: LOW",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Shutdown: OFF",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Main Tanks: OFF OR LOW IF REQUIRED",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Switching Tanks: LOW",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Auxiliary Tanks: OFF OR LOW IF REQUIRED",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Crossfeeding: LOW",
+						"comment": "",
+						"response": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Cabin Comfort",
+		"checklists": [
+			{
+				"name": "If heating and defrosting is required",
+				"items": [
+					{
+						"type": "WARNING",
+						"text": "DO NOT TURN ON the heater with the cabin air closed, the heater could overheat and shutdown with possible damage",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Cabin Air Knobs: OPEN",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Defrost Knob: AS REQUIRED",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Temperature Control Knob: OPEN",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Cabin Heat Switch: HEAT",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Heat Registers: AS REQUIRED",
+						"comment": "",
+						"response": ""
+					}
+				]
+			},
+			{
+				"name": "f ventilation is required",
+				"items": [
+					{
+						"type": "TEXT",
+						"text": "Cabin Air Knobs: OPEN",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Cabin Heat Switch: FAN",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Heat Registers and Directional Air Vents: AS REQUIRED",
+						"comment": "",
+						"response": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Specifications",
+		"checklists": [
+			{
+				"name": "General Information",
+				"items": [
+					{
+						"type": "TEXT",
+						"text": "Max. Takeoff Weight: 5.500 lbs",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Max. Landing Weight: 5.400 lbs",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Service Ceiling: 20.000 ft",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Max. Range: ~1.000 NM",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "VFE 15°: 158 KIAS",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "VFE 35°: 138 KIAS",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "VLO/VLE: 138 KIAS",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "VX (Best Angle Of Climb - All Engines): 85 KIAS",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "VY (Best Rate Of Climb - All Engines): 107 KIAS",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "VY (Best Rate Of Climb - OEI) Blue Line: 106 KIAS",
+						"comment": "",
+						"response": ""
+					},
+					{
+						"type": "TEXT",
+						"text": "Max. Demonstrated Crosswinds: 19 Kts",
+						"comment": "",
+						"response": ""
 					}
 				]
 			}
