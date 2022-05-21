@@ -1176,7 +1176,7 @@
 		"name": "Cabin Comfort",
 		"checklists": [
 			{
-				"name": "If heating and defrosting is required",
+				"name": "Cabin Temperature",
 				"items": [
 					{
 						"type": "WARNING",
@@ -1217,7 +1217,7 @@
 				]
 			},
 			{
-				"name": "f ventilation is required",
+				"name": "Cabin Ventilation",
 				"items": [
 					{
 						"type": "TEXT",
